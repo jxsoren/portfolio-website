@@ -1,0 +1,82 @@
+.home {
+    text-align: center;
+    /* position: absolute; */
+    /* font-family: Ultra; */
+    z-index: 2;
+}
+
+.my-name {
+    font-family: Ultra;
+    font-size: 5em;
+    text-align: center;
+
+    filter: blur(0);
+}
+
+.my-name * {
+    filter: blur(0);
+    text-align: center;
+}
+
+.home > h1{
+    font-size: 60px;
+    color: white;
+    z-index: 2;
+}
+
+.rpg-img {
+    height: 350px;
+    width: 100%;
+}
+
+#view-repo-3 {
+    width: 50%;
+    
+    grid-row: 3 / 4;
+    grid-column: 1 / 2
+}
+
+@media screen and (max-width: 766px) {
+    .my-name {
+        font-family: Ultra;
+        font-size: 3.5em;
+        text-align: center;
+
+        filter: blur(0);
+    }
+
+    .rpg-img {
+        height: 400px;
+        width: 380px;
+    }
+
+    .my-name * {
+        filter: blur(0);
+        text-align: center;
+
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1000px){
+    .rpg-img {
+        height: 600px;
+        width: 550px
+    }
+}
+
+@media screen and (min-width: 1001px){
+    .rpg-img {
+        height: 600px;
+        width: 550px
+    }
+}
+
+.rpg-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 10px;
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Ultra; 
+    src: url('./Ultra.otf');
+}
+
+@font-face {
+    font-family: Ultra;
+    font-weight: bold;
+    src: url('./Ultra.otf')
+}
