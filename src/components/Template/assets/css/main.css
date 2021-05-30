@@ -2667,7 +2667,7 @@ input, select, textarea {
 		ul.contact li {
 			text-decoration: none;
 			margin: 2.5em 0 0 0;
-			padding: 0 0 0 3.25em;
+			/* padding: 0 450px 0px 0px ; */
 			position: relative;
 		}
 
@@ -3381,10 +3381,8 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		/* padding: 5em 0 4.75em 0 ; */
+		/* padding: 3em 0 2.75em 0 ; */
 		margin-top: -120px;
-		
-
 	}
 
 	.banner2 {
@@ -3470,7 +3468,7 @@ input, select, textarea {
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
-			text-transform: uppercase;
+			/* text-transform: uppercase; */
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3491,7 +3489,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 8em 3em 10.375em 3em ;
+				/* padding: 8em 3em 10.375em 3em ; */
 				margin-bottom: -4.75em;
 			}
 
