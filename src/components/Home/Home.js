@@ -6,8 +6,15 @@ const Home = () => {
     return(
         <div className="home">
             <span className="my-name">
-                <div>Josh</div>
-                <div>Soresnen</div>
+
+                <div className="josh">
+                        Josh
+                </div>
+
+                <div className="sorensen">
+                    Soresnen
+                </div>
+                
             </span>
 		
             <TemplateHome />

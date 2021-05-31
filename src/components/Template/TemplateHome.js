@@ -10,43 +10,24 @@ import linkedin from './linkedin.png'
 export const TemplateHome = () => {
     return(
         <div id="page-wrapper">
-					<header id="header" class="alt">
-						<h1><a href="index.html">Solid State</a></h1>
-						<nav>
-							
-						</nav>
-					</header>
-
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
-
-
 					<section id="banner">
-						<div class="inner">
+						<div className="inner">
 							<h2>About ME </h2>
-							<p>Hey, there! My name is Josh. I'm a Full Stack Software Engineer and I'm currently 19 years old and living in one of the surrounding cities just outside of Salt Lake City, Utah. When I'm away from my keyboard, I'm often driving though canyons, hiking, finding spots witch amazing views, watching horror movies or attending baseball games.</p>
+							<p>Hey, there! My name is Josh. I'm a Full Stack Software Engineer and I'm currently located in one of the surrounding cities just outside of Salt Lake City, Utah. When I'm away from my keyboard, I'm often driving though canyons, hiking, finding spots witch amazing views, watching horror movies or attending baseball games.</p>
 						</div>
 					</section>
 
-					<section id="four" class="wrapper alt style1">
+					<section id="banner" className="inner">
 								<div class="inner">
 									<h2 class="major">My SKILLS</h2>
-									<p>I am proficent in React, JavaScript, Node, Express and MongoDB.</p>
+									<p>I am proficent in React, JavaScript, Node, Express and MongoDB. I pride myself in communicating and collaborating efficiently. Problem solving and the drive to find solutions to puzzles, keeps me passionate about technology and constantly improving my technical skills.</p>
 									<section class="features">
-									
 									</section>
 								</div>
 							</section>
 					
 					<section id="banner" className='banner2'>
-								<h2 id="banner">My Work</h2>
+								<h2 id="banner" className="my-work">My Work</h2>
 					</section>
 
 					<section id="wrapper">
@@ -113,7 +94,7 @@ export const TemplateHome = () => {
 							<ul className="contact">
 								<li className="icon solid fa-envelope">jxsoren@gmail.com</li>
 
-								<li className="icon solid">
+								<li className="icon solid linkedinIcon">
 									<img  
 										src={linkedin} 
 										alt='linkedin'
@@ -126,14 +107,14 @@ export const TemplateHome = () => {
 									>josh-sorensen</a>
 								</li>
 
-								<li className="icon solid">
+								<li className="icon solid githubIcon">
 									<img 
 										alt="github"
 										className="github"
 										src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png"
 									/>
 									<a
-										href="https://www.linkedin.com/in/josh-sorensen/"
+										href="https://github.com/jxsoren"
 										rel="noopener noreferrer"
 										target="_blank"
 									>jxsoren</a>
