@@ -9,7 +9,7 @@
     font-family: Ultra;
 
     text-align: center;
-    margin-left: 6%;
+    margin-left: 4.5%;
 }
 
 .sorensen {
@@ -18,7 +18,7 @@
 
     text-align: center;
     margin-top: -40px;
-    margin-left: 6%;
+    margin-left: 4.5%;
 }
 
 .my-name {
@@ -32,7 +32,17 @@
     filter: blur(0);
 }
 
+.my-work {
+    margin-top: 0px;
+}
 
+.link-text {
+    margin-left: 0px;
+}
+
+#email-contact {
+    padding-left: 0px;
+}
 
 .my-name * {
     filter: blur(0);
@@ -124,6 +134,20 @@
     }
 }
 
+@media screen and (min-width: 0px) and (max-width: 1000px){
+    .my-work {
+        margin-top: 30px;
+    }
+    
+    .link-text {
+        margin-left: 30px;
+    }
+    
+    #email-contact {
+        padding-left: -10px;
+    }
+}
+
 @media screen and (min-width: 767px) and (max-width: 1000px){
     .rpg-img {
         height: 600px;
@@ -133,8 +157,8 @@
 
 @media screen and (min-width: 1001px){
     .rpg-img {
-        height: 900px;
-        width: 850px;
+        height: 600px;
+        width: 600px;
     }
 }
 
