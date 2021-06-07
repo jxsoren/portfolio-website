@@ -11,14 +11,14 @@ export const TemplateHome = () => {
 					<section id="banner">
 						<div className="inner">
 							<h2>About ME </h2>
-							<p>Hi, there! My name is Josh Sorensen. I'm a Full Stack Software Engineer and I'm currently located in one of the surrounding cities just outside of Salt Lake City, Utah. When I'm away from my keyboard, I'm often driving though canyons, stargazing hiking, finding spots witch amazing views, watching horror movies or attending baseball games.</p>
+							<p>Hi, there! My name is Josh Sorensen. I'm a Full Stack Software Engineer and I'm currently located in one of the surrounding cities just outside of Salt Lake City, Utah. When I'm away from my keyboard, I'm often driving through canyons, stargazing, hiking, finding spots with amazing views, watching horror movies or attending baseball games.</p>
 						</div>
 					</section>
 
 					<section id="banner" className="inner">
 								<div class="inner">
 									<h2 class="major">My SKILLS</h2>
-									<p>I am proficent in React, JavaScript, Node, Express and MongoDB. I pride myself in communicating and collaborating efficiently. Problem solving and the drive to find solutions to puzzles keeps me passionate about technology and constantly improving my technical skills.</p>
+									<p>I am proficient in React, JavaScript, Node, Express and MongoDB. I pride myself in communicating and collaborating efficiently. Problem solving and the drive to find solutions to puzzles keeps me passionate about technology and constantly improving my technical skills..</p>
 									<section class="features">
 									</section>
 								</div>
@@ -34,7 +34,7 @@ export const TemplateHome = () => {
 									
 									<div class="content">
 										<h2 class="major">Quickcipe</h2>
-										<p>Quickcipe is a user friendly recipe sharing app, that allows users to create and share recipes that are to the point and are without all of the extra fluff of traditional recipes. Quickcipe is a Full Stack web application. Quickcipe was built with Node, Javascript, MongoDB, Mongoose, Express, React and Sass.</p>
+										<p>Quickcipe is a user-friendly recipe sharing app, that allows users to create and share recipes that are to the point and are without all of the extra fluff of traditional recipes. Quickcipe is a Full Stack web application. Quickcipe was built with Node, Javascript, MongoDB, Mongoose, Express, React and Sass.</p>
 										<img src={burger} className="rpg-img" alt="burger" />
 										<a href="https://github.com/jxsoren/quickcipe" class="special" target="_blank" id="view-repo-3" rel="noopener noreferrer">View Repository</a>
 										<a 
@@ -48,7 +48,7 @@ export const TemplateHome = () => {
 
 
 							<section id="two" class="wrapper alt spotlight style2">
-								<div class="inner">
+								<div class="inner" id="hot-take-hq-inner">
 									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Hot Take HQ</h2>
@@ -79,7 +79,7 @@ export const TemplateHome = () => {
 									<a href="#" ><img src="" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Node Rpg</h2>
-										<p>A fully fuctioning Text-Based RPG based on 2K Games' Bioshock. This was made 100% in JavaScript and NodeJS. This was my first ever 'real' project in my software developing journey. </p>
+										<p>A fully functioning Text-Based RPG based on 2K Games' Bioshock. This was made 100% in JavaScript and NodeJS. This was my first ever 'real' project in my software developing journey.</p>
 										<img alt="" src="../images/circus.png"/>
 									</div>
 									<div className="rpg-img-container">

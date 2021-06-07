@@ -3464,8 +3464,8 @@ input, select, textarea {
 			filter: blur(0);
 			opacity: 1;
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 1em;
-			font-weight: 200;
+			font-size: 1.3em;
+			font-weight: 400;
 			letter-spacing: 0.1em;
 			line-height: 2;
 			/* text-transform: uppercase; */
@@ -3495,7 +3495,12 @@ input, select, textarea {
 
 				#banner .inner {
 					width: 100%;
+					padding: 0px;
 				}
+			
+			.wrapper .inner {
+				margin: 0
+			}
 
 		}
 
@@ -3837,6 +3842,7 @@ input, select, textarea {
 				display: grid;
 				grid-template-columns: 2fr 1fr;
 				font-size: 1.2em;
+				padding: 70px;
 				/* grid-template-rows: 0.3fr 1fr 0.1fr; */
 				flex-direction: row-reverse;
 				text-align: left;

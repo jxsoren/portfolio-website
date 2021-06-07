@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 .home {
     text-align: center;
     /* position: absolute; */
@@ -111,6 +116,11 @@
     grid-column: 1 / 2
 }
 
+#hot-take-hq-inner {
+    margin-left: 150px;
+    text-align: right;
+}
+
 @media screen and (max-width: 766px) {
     .my-name {
         font-family: Ultra;
@@ -131,6 +141,11 @@
 
         margin-left: 20px;
         margin-right: 10px;
+    }
+
+    #hot-take-hq-inner {
+        margin-left: 150px;
+        text-align: right;
     }
 }
 
@@ -175,5 +190,28 @@
     justify-content: space-around;
 
     padding: 10px;
+}
+
+@media screen and (min-width: 1120px){
+    #hot-take-hq-inner {
+        margin-left: 250px;
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    #hot-take-hq-inner {
+        margin-left: 400px;
+        text-align: right;
+    }
+}
+
+
+@media screen and (min-width: 1550px){
+    #hot-take-hq-inner {
+        margin-left: 500px;
+        text-align: right;
+    }
 }
 
