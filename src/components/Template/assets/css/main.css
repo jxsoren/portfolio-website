@@ -175,7 +175,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
 		color: #ffffff;
 		text-decoration: none;
 	}
@@ -2667,7 +2667,7 @@ input, select, textarea {
 		ul.contact li {
 			text-decoration: none;
 			margin: 2.5em 0 0 0;
-			/* padding: 0 450px 0px 0px ; */
+			padding: 0 450px 0px 0px ;
 			position: relative;
 		}
 
@@ -3836,6 +3836,7 @@ input, select, textarea {
 				-ms-flex-direction: row-reverse;
 				display: grid;
 				grid-template-columns: 2fr 1fr;
+				font-size: 1.2em;
 				/* grid-template-rows: 0.3fr 1fr 0.1fr; */
 				flex-direction: row-reverse;
 				text-align: left;
