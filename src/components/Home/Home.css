@@ -179,7 +179,7 @@ html, body {
 
 @media screen and (min-width: 1280px){
     #banner {
-        margin: 10px;
+        margin: 1px;
         /* padding: 1em 0 1.75em 0 */
     }
 }
@@ -194,7 +194,7 @@ html, body {
 
 @media screen and (min-width: 1120px){
     #hot-take-hq-inner {
-        margin-left: 250px;
+        margin-left: 150px;
         text-align: right;
     }
 
