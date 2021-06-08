@@ -117,7 +117,7 @@ html, body {
 }
 
 #hot-take-hq-inner {
-    margin-left: 150px;
+    margin-left: 0px;
     text-align: right;
 }
 
@@ -200,7 +200,7 @@ html, body {
 
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1300px){
     #hot-take-hq-inner {
         margin-left: 400px;
         text-align: right;
