@@ -35,7 +35,13 @@ export const TemplateHome = () => {
 									<div class="content">
 										<h2 class="major">Quickcipe</h2>
 										<p>Quickcipe is a user-friendly recipe sharing app, that allows users to create and share recipes that are to the point and are without all of the extra fluff of traditional recipes. Quickcipe is a Full Stack web application. Quickcipe was built with Node, Javascript, MongoDB, Mongoose, Express, React and Sass.</p>
-										<img src={burger} className="rpg-img" alt="burger" />
+
+										<a
+											href="https://quickcipe.herokuapp.com/" target="_blank" rel="noopener noreferrer"
+										>
+											<img src={burger} className="rpg-img" alt="burger" href="https://quickcipe.herokuapp.com/"/>
+										</a>
+
 										<a href="https://github.com/jxsoren/quickcipe" class="special" target="_blank" id="view-repo-3" rel="noopener noreferrer">View Repository</a>
 										<a 
 											href="https://quickcipe.herokuapp.com/" 
@@ -54,7 +60,14 @@ export const TemplateHome = () => {
 										<h2 class="major">Hot Take HQ</h2>
 										<p>Hot Take HQ is a user authenticated application that allows users to post "Hot Takes" (An opinion that is controversial and/or 'unpopular'). Users can also agree or disagree on posts that add up to a total. Hot Take HQ was built with Node, Javascript, React and CSS for styling.</p>
 
-										<img src={take} className="rpg-img" alt="take-app" />
+										<a
+											href="https://hot-take-app.herokuapp.com/" 
+											target="_blank" 
+											rel="noopener noreferrer"
+										>
+
+											<img src={take} className="rpg-img" alt="take-app" href="https://hot-take-app.herokuapp.com/" />
+										</a>
 
 										<a 
 											href="https://github.com/jxsoren/hot-take-app" 
