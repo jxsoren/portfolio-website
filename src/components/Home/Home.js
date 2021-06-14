@@ -12,7 +12,7 @@ const Home = () => {
                 </div>
 
                 <div className="sorensen">
-                    Soresnen
+                    Sorensen
                 </div>
                 
             </span>
