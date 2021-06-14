@@ -3464,8 +3464,8 @@ input, select, textarea {
 			filter: blur(0);
 			opacity: 1;
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 1em;
-			font-weight: 200;
+			font-size: 1.3em;
+			font-weight: 400;
 			letter-spacing: 0.1em;
 			line-height: 2;
 			/* text-transform: uppercase; */
@@ -3495,7 +3495,12 @@ input, select, textarea {
 
 				#banner .inner {
 					width: 100%;
+					padding: 0px;
 				}
+			
+			.wrapper .inner {
+				margin: 0
+			}
 
 		}
 
@@ -3636,7 +3641,7 @@ input, select, textarea {
 
 	.wrapper {
 		background-color: transparent;
-		margin: 6.5em 0;
+		margin-top: -100px;
 		position: relative;
 	}
 
@@ -3692,7 +3697,7 @@ input, select, textarea {
 
 		.wrapper .inner {
 			padding: 3em 0 1em 0 ;
-			margin: 0 auto;
+			margin: 50px;
 			width: 55em;
 		}
 
@@ -3837,10 +3842,10 @@ input, select, textarea {
 				display: grid;
 				grid-template-columns: 2fr 1fr;
 				font-size: 1.2em;
+				padding: 70px;
 				/* grid-template-rows: 0.3fr 1fr 0.1fr; */
 				flex-direction: row-reverse;
 				text-align: left;
-				margin-top: 120px
 
 			}
 
@@ -4042,7 +4047,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		margin: 0 auto;
+		margin-left: 50px;
 		width: 55em;
 	}
 
@@ -4056,7 +4061,7 @@ input, select, textarea {
 		}
 
 		#footer .inner .contact {
-			width: calc(50% - 1.5em);
+			/* width: calc(50% - 1.5em); */
 		}
 
 		#footer .inner .copyright {
@@ -4098,7 +4103,7 @@ input, select, textarea {
 			background-position: center,
  center;
 			margin-top: -6.5em;
-			padding-top: 6.5em;
+			/* padding-top: 6.5em; */
 		}
 
 	}

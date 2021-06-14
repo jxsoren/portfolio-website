@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 .home {
     text-align: center;
     /* position: absolute; */
@@ -9,7 +14,7 @@
     font-family: Ultra;
 
     text-align: center;
-    margin-left: 6%;
+    margin-left: 4.5%;
 }
 
 .sorensen {
@@ -18,7 +23,7 @@
 
     text-align: center;
     margin-top: -40px;
-    margin-left: 6%;
+    margin-left: 4.5%;
 }
 
 .my-name {
@@ -32,7 +37,17 @@
     filter: blur(0);
 }
 
+.my-work {
+    margin-top: 0px;
+}
 
+.link-text {
+    margin-left: 0px;
+}
+
+#email-contact {
+    padding-left: 0px;
+}
 
 .my-name * {
     filter: blur(0);
@@ -101,6 +116,11 @@
     grid-column: 1 / 2
 }
 
+#hot-take-hq-inner {
+    margin-left: 0px;
+    text-align: right;
+}
+
 @media screen and (max-width: 766px) {
     .my-name {
         font-family: Ultra;
@@ -122,6 +142,25 @@
         margin-left: 20px;
         margin-right: 10px;
     }
+
+    #hot-take-hq-inner {
+        margin-left: 150px;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px){
+    .my-work {
+        margin-top: 30px;
+    }
+    
+    .link-text {
+        margin-left: 30px;
+    }
+    
+    #email-contact {
+        padding-left: -10px;
+    }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1000px){
@@ -133,14 +172,14 @@
 
 @media screen and (min-width: 1001px){
     .rpg-img {
-        height: 900px;
-        width: 850px;
+        height: 600px;
+        width: 600px;
     }
 }
 
 @media screen and (min-width: 1280px){
     #banner {
-        margin: 10px;
+        margin: 1px;
         /* padding: 1em 0 1.75em 0 */
     }
 }
@@ -151,5 +190,28 @@
     justify-content: space-around;
 
     padding: 10px;
+}
+
+@media screen and (min-width: 1120px){
+    #hot-take-hq-inner {
+        margin-left: 150px;
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width: 1300px){
+    #hot-take-hq-inner {
+        margin-left: 400px;
+        text-align: right;
+    }
+}
+
+
+@media screen and (min-width: 1550px){
+    #hot-take-hq-inner {
+        margin-left: 500px;
+        text-align: right;
+    }
 }
 
