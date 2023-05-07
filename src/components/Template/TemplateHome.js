@@ -11,18 +11,18 @@ export const TemplateHome = () => {
 					<section id="banner">
 						<div className="inner">
 							<h2>About ME </h2>
-							<p>Hi, there! My name is Josh Sorensen. I'm a Full Stack Software Engineer and I'm currently located in one of the surrounding cities just outside of Salt Lake City, Utah. When I'm away from my keyboard, I'm often driving through canyons, stargazing, hiking, finding spots with amazing views, watching horror movies or attending baseball games.</p>
+							<p>Hi, there! My name is Josh Sorensen. I'm a Software Developer with 2+ years of Support Engineering experience. When I'm away from my keyboard, I enjoy building & upgrading PCs, going to the gym and hiking/spending time in the great outdoors.</p>
 						</div>
 					</section>
 
 					<section id="banner" className="inner">
-								<div class="inner">
-									<h2 class="major">My SKILLS</h2>
-									<p>I am proficient in React, JavaScript, Node, Express and MongoDB. I pride myself in communicating and collaborating efficiently. Problem solving and the drive to find solutions to puzzles keeps me passionate about technology and constantly improving my technical skills..</p>
-									<section class="features">
-									</section>
-								</div>
+						<div class="inner">
+							<h2 class="major">My Skills</h2>
+							<p>I am proficient in React, JavaScript, Node, Express and MongoDB. I have a proven ability to deliver robust, effective solutions in collaborative settings under strict and often tight time constraints. I am passionate about tackling complex problems and finding elegant solutions. I thrive on the challenge of constantly improving my skills and staying up-to-date with the latest technologies.</p>
+							<section class="features">
 							</section>
+						</div>
+					</section>
 					
 					<section id="banner" className='banner2 my-work'>
 								<h2 className="my-work">My Work</h2>
@@ -34,7 +34,8 @@ export const TemplateHome = () => {
 									
 									<div class="content">
 										<h2 class="major">Quickcipe</h2>
-										<p>Quickcipe is a user-friendly recipe sharing app, that allows users to create and share recipes that are to the point and are without all of the extra fluff of traditional recipes. Quickcipe is a Full Stack web application. Quickcipe was built with Node, Javascript, MongoDB, Mongoose, Express, React and Sass.</p>
+										<p>Quickcipe is a sleek and user-friendly recipe sharing application that streamlines the recipe creation process, removing unnecessary fluff and delivering concise and easy-to-follow instructions. With Quickcipe, users can create and share recipes with ease, searching for recipes by ingredients, keywords, or categories, and even saving their favorite recipes for later use.</p>
+										<div>Quickcipie was built with Node, MongoDB, Mongoose, Express and React.</div>
 
 										<a
 											href="https://quickcipe.herokuapp.com/" target="_blank" rel="noopener noreferrer"
@@ -52,13 +53,13 @@ export const TemplateHome = () => {
 								</div>
 							</section>
 
-
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner" id="hot-take-hq-inner">
 									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Hot Take HQ</h2>
-										<p>Hot Take HQ is a user authenticated application that allows users to post "Hot Takes" (An opinion that is controversial and/or 'unpopular'). Users can also agree or disagree on posts that add up to a total. Hot Take HQ was built with Node, Javascript, React and CSS for styling.</p>
+										<p>Hot Take HQ is an engaging and interactive web application that lets users express their unique opinions on a variety of topics, from sports to politics to entertainment. With secure user authentication, users can post their 'hot takes' and see how they stack up against the opinions of others. Through the platform's agree/disagree feature, users can engage in lively debates and discussions, expanding their horizons and gaining new perspectives.</p>
+										<div>Hot Take HQ was built with React, Express, Node, MongoDB, and Mongoose.</div>
 
 										<a
 											href="https://hot-take-app.herokuapp.com/" 
@@ -91,8 +92,10 @@ export const TemplateHome = () => {
 								<div class="inner">
 									<a href="#" ><img src="" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Node Rpg</h2>
-										<p>A fully functioning Text-Based RPG based on 2K Games' Bioshock. This was made 100% in JavaScript and NodeJS. This was my first ever 'real' project in my software developing journey.</p>
+										<h2 class="major">Retro Terminal RPG</h2>
+										<p>This project is a fully functional, text-based role-playing game based on the popular video game series, Bioshock. This game is designed to be run inside the terminal using Node.js and JavaScript, and features a variety of gameplay mechanics, including combat, inventory management, and character progression.</p>
+										<p>Retro Terminal RPG was built with Javascript and Node.</p>
+										<div></div>
 										<img alt="" src="../images/circus.png"/>
 									</div>
 									<div className="rpg-img-container">
@@ -158,6 +161,6 @@ export const TemplateHome = () => {
 						</div>
 					</section>
 
-			</div>
+		</div>
     )
 }
