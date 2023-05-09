@@ -12,10 +12,7 @@ export const TemplateHome = () => {
         <div className="inner">
           <h2>About ME </h2>
           <p>
-            Hi, there! My name is Josh Sorensen. I'm a Software Developer with
-            2+ years of Support Engineering experience. When I'm away from my
-            keyboard, I enjoy building & upgrading PCs, going to the gym and
-            hiking/spending time in the great outdoors.
+          Hey there! My name is Josh Sorensen. I'm a software developer based out of Salt Lake City, Utah with a passion for solving problems and constantly improving. When I'm not behind a keyboard, you can find me enjoying the great outdoors, building PCs or working out.
           </p>
         </div>
       </section>
