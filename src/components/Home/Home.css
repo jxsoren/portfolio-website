@@ -61,6 +61,7 @@ html, body {
 }
  
 .rpg-img {
+    margin-top: 10px;
     height: 350px;
     width: 100%;
 }
@@ -187,9 +188,11 @@ html, body {
 .rpg-img-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    margin-bottom: 10px;
+}
 
-    padding: 10px;
+.retro-terminal {
+    margin-bottom: 5px;
 }
 
 @media screen and (min-width: 1120px){
