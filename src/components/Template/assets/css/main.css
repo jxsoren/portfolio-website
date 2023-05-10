@@ -136,6 +136,7 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 
+
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2705,7 +2706,43 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			ul.contact li {
-				margin: 1.5em 0 0 0;
+				text-decoration: none;
+				margin: 2.5em 0 0 0;
+				padding: 0 900px 0px 0px ;
+				position: relative;
+			}
+
+		}
+
+		@media screen and (max-width: 1681px) {
+
+			ul.contact li {
+				text-decoration: none;
+				margin: 2.5em 0 0 0;
+				padding: 0 700px 0px 0px ;
+				position: relative;
+			}
+
+		}
+
+		@media screen and (min-width: 1681px) {
+
+			ul.contact li {
+				text-decoration: none;
+				margin: 2.5em 0 0 0;
+				padding: 0 9000px 0px 0px ;
+				position: relative;
+			}
+
+		}
+
+		@media screen and (min-width: 1300px) {
+
+			ul.contact li {
+				text-decoration: none;
+				margin: 2.5em 0 0 0;
+				padding: 0 700px 0px 0px ;
+				position: relative;
 			}
 
 		}

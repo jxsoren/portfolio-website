@@ -232,7 +232,7 @@ export const TemplateHome = () => {
                 </a>
               </div>
             </li>
-          </ul>
+          </ul> 
         </div>
       </section>
     </div>
