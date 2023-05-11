@@ -12,7 +12,10 @@ export const TemplateHome = () => {
         <div className="inner">
           <h2>About ME </h2>
           <p>
-          Hey there! My name is Josh Sorensen. I'm a software developer based out of Salt Lake City, Utah with a passion for solving problems and constantly improving. When I'm not behind a keyboard, you can find me enjoying the great outdoors, building PCs or working out.
+            Hey there! My name is Josh Sorensen. I'm a software developer based
+            out of Salt Lake City, Utah with a passion for solving problems and
+            constantly improving. When I'm not behind a keyboard, you can find
+            me enjoying the great outdoors, building PCs or working out.
           </p>
         </div>
       </section>
@@ -43,13 +46,11 @@ export const TemplateHome = () => {
             <div class="content">
               <h2 class="major">Quickcipe</h2>
               <p>
-                Quickcipe is a sleek and user-friendly recipe sharing
-                application that streamlines the recipe creation process,
-                removing unnecessary fluff and delivering concise and
-                easy-to-follow instructions. With Quickcipe, users can create
-                and share recipes with ease, searching for recipes by
-                ingredients, keywords, or categories, and even saving their
-                favorite recipes for later use.
+                Quickcipe is a sleek and user-friendly recipe creation
+                application that simplifies the recipe-making process by
+                delivering concise and easy-to-follow instructions. With
+                Quickcipe, users can create their own recipes with ease, using
+                only the necessary ingredients and steps.
               </p>
               <div>
                 Quickcipie was built with Node, MongoDB, Mongoose, Express and
@@ -154,14 +155,16 @@ export const TemplateHome = () => {
             <div class="content">
               <h2 class="major">Retro Terminal RPG</h2>
               <p>
-                This project is a fully functional, text-based role-playing game
+                Text-based role-playing game
                 based on the popular video game series, Bioshock. This game is
                 designed to be run inside the terminal using Node.js and
                 JavaScript, and features a variety of gameplay mechanics,
                 including combat, inventory management, and character
                 progression.
               </p>
-              <p className="retro-terminal">Retro Terminal RPG was built with Javascript and Node.</p>
+              <p className="retro-terminal">
+                Retro Terminal RPG was built with Javascript and Node.
+              </p>
             </div>
             <div className="rpg-img-container">
               <img src={inv} className="rpg-img" alt="inv" />
@@ -232,7 +235,7 @@ export const TemplateHome = () => {
                 </a>
               </div>
             </li>
-          </ul> 
+          </ul>
         </div>
       </section>
     </div>
